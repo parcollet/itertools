@@ -122,7 +122,9 @@ endif()
 # Build Project
 
 # Find / Build dependencies
+if (NOT DO_NOT_USE_DEPS)
 add_subdirectory(deps)
+endif()
 
 # Build and install the library
 add_subdirectory(c++/${PROJECT_NAME})
