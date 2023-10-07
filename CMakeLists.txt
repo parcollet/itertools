@@ -57,7 +57,7 @@ option(Build_Documentation "Build documentation" OFF)
 option(Build_Benchs "Build Benchmarks" OFF)
 
 # Testing
-option(Build_Tests "Build tests" ON)
+option(Build_Tests "Build tests" OFF)
 if(Build_Tests)
   enable_testing()
 endif()
