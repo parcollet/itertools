@@ -123,7 +123,7 @@ endif()
 
 # Find / Build dependencies
 if (NOT DO_NOT_USE_DEPS)
-# add_subdirectory(deps)
+ add_subdirectory(deps)
 endif()
 
 # Build and install the library
